@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <style>
+      .petal { fill: #344f1f; }
+      .center { fill: #f4991a; }
+    </style>
+  </defs>
+  <!-- 8-petal geometric flower -->
+  <g transform="translate(60,60)">
+    <!-- Petals at 0, 45, 90, 135, 180, 225, 270, 315 degrees -->
+    <ellipse class="petal" cx="0" cy="-28" rx="10" ry="22" transform="rotate(0)"/>
+    <ellipse class="petal" cx="0" cy="-28" rx="10" ry="22" transform="rotate(45)"/>
+    <ellipse class="petal" cx="0" cy="-28" rx="10" ry="22" transform="rotate(90)"/>
+    <ellipse class="petal" cx="0" cy="-28" rx="10" ry="22" transform="rotate(135)"/>
+    <ellipse class="petal" cx="0" cy="-28" rx="10" ry="22" transform="rotate(180)"/>
+    <ellipse class="petal" cx="0" cy="-28" rx="10" ry="22" transform="rotate(225)"/>
+    <ellipse class="petal" cx="0" cy="-28" rx="10" ry="22" transform="rotate(270)"/>
+    <ellipse class="petal" cx="0" cy="-28" rx="10" ry="22" transform="rotate(315)"/>
+    <!-- Center circle -->
+    <circle class="center" cx="0" cy="0" r="12"/>
+  </g>
+</svg>
